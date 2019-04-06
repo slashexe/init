@@ -1,0 +1,32 @@
+acpid
+alsa-utils
+anacron
+avahi-daemon
+bluetooth
+console-setup.sh
+cron
+dbus
+gdm3
+hwclock.sh
+keyboard-setup.sh
+kmod
+live-tools
+minissdpd
+network-manager
+networking
+pppd-dns
+procps
+rsync
+rsyslog
+saned
+speech-dispatcher
+ssh
+sudo
+udev
+unattended-epgrades
+uuidd
+x11-common
+"daemon"
+
+#sudo service --status-all
+#cd /etc/init.d

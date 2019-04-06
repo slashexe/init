@@ -1,1 +1,3 @@
-ipconfig getifaddr en0
+ifconfig en0 | cut -f2 | grep "broadcast" | rev | cut -d ' ' -f1 | rev
+
+ping -c 2 `ifconfig en0 | cut -f2 | grep "broadcast" | rev | cut -d ' ' -f1 | rev` | grep "seq=0" | cut -d ':' -f1 | rev | cut -d ' ' -f1 | rev

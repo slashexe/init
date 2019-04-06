@@ -1,0 +1,4 @@
+.ssh/authorized_keys
+
+Préciser au fichier /etc/ssh/sshd_config.
+Possibilité d'avoir un fichier .ssh/authorized_keys2

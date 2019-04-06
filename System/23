@@ -1,0 +1,4 @@
+Commande su (nom de l'utilisateur) change utilisateur depuis terminal
+Connecter en ssh commande ssh + (nom de l'utilisateur)@(hostname)
+su new_usr
+ssh new_usr@localhost
